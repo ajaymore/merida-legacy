@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  web:
+    image: mysticalaj/node-web-app
+    ports:
+      - "8000:8000"
+    command: npm start
+    environment:
+      PORT: 8000
